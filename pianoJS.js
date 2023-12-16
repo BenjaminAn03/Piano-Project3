@@ -1,10 +1,3 @@
-const keys = document.querySelectorAll('.key');
-
-keys.forEach(key => {
-    key.addEventListener("click", () => playNote(key));
-    console.log(key.dataset.key);
-})
-
 document.addEventListener('keydown', playNote);
 
 function playNote(key) {
