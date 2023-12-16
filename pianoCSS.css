@@ -13,7 +13,7 @@ body {
 }
 
 .board {
-    /*cursor: none;*/
+    cursor: none;
     margin-top: 200px;
 }
 
